@@ -3,5 +3,4 @@
 # IntelliJ project files
 .idea
 .data
-out
-gen
+.vscode
