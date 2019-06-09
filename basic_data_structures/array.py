@@ -20,6 +20,27 @@ class Array(object):
         """
         self.ndim = ndim
         self.mdim = mdim
+        self.length = (self.ndim, self.mdim)
+        self.element_count = self.ndim * self.mdim
 
-    def check_length(self):
+    def __check_length(self):
+        pass
+
+    def add_element(self, e):
+        pass
+
+    def remove_element(self, a):
+        pass
+
+    def length(self):
+        """ Returns the length of the array. """
+        return self.length
+
+    def sum(self):
+        pass
+
+    def mean(self):
+        pass
+
+    def std_dev(self):
         pass
